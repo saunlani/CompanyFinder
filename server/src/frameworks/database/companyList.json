@@ -1,0 +1,63 @@
+[
+  {
+    "id": 0,
+    "name": "Zeppelin GmbH",
+    "logoUrl": "https://media-exp2.licdn.com/dms/image/C4D0BAQFRkMbi1knWDw/company-logo_200_200/0/1547135253293?e=2147483647&v=beta&t=z3_V7YRNbD8bnLaAqNWmoOlntZ72lRoO0Fox7LfGuIk",
+    "specialties": [
+      "Plumbing",
+      "Electrical",
+      "Program Management"
+    ],
+    "city": "Berlin"
+  },
+  {
+    "id": 1,
+    "name": "Multimon Group",
+    "logoUrl": "https://scontent.fdet2-1.fna.fbcdn.net/v/t39.30808-6/224406047_103867615276259_3840115561572132765_n.jpg?stp=cp0_dst-jpg_e15_fr_q65&_nc_cat=102&ccb=1-7&_nc_sid=85a577&efg=eyJpIjoidCJ9&_nc_ohc=pwNUcyqRdUYAX8LWDGK&_nc_ht=scontent.fdet2-1.fna&oh=00_AT_0gfZpnSTkniN_6swGphYttgZZbyLr5pApseKfDT11DQ&oe=631367D0",
+    "specialties": [
+      "Electrical",
+      "Construction Management"
+    ],
+    "city": "Stuttgart"
+  },
+  {
+    "id": 3,
+    "name": "Goldbeck",
+    "logoUrl": "https://media.glassdoor.com/sqll/934729/goldbeck-gmbh-squarelogo-1438341577528.png",
+    "specialties": [
+      "Material supply",
+      "Small Renovation"
+    ],
+    "city": "Leipzig"
+  },
+  {
+    "id": 4,
+    "name": "Bagela Baumaschinen GmbH & Co. KG",
+    "logoUrl": "https://www.energy-xprt.com/files/28909/images/28909_0_202007231644413580962.jpg",
+    "specialties": [
+      "Equipment Rental",
+      "Electrical",
+      "Large Renovation"
+    ],
+    "city": "Dresden"
+  },
+  {
+    "id": 5,
+    "name": "Ischebeck",
+    "logoUrl": "http://www.ischebeck.de/wp-content/uploads/2016/03/CD-FOTO-Ischebeck-Logo-vor-wei%C3%9F_v01.jpg",
+    "specialties": [
+      "Geotechnics",
+      "Plumbing"
+    ],
+    "city": "Hamburg"
+  },
+  {
+    "id": 6,
+    "name": "BigBoxBerlin",
+    "logoUrl": "https://scontent.fdet1-1.fna.fbcdn.net/v/t31.18172-8/12182592_363409890496245_3638819657609086603_o.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=t6Uh8kYBrLUAX-BCvmM&_nc_ht=scontent.fdet1-1.fna&oh=00_AT-SUzm0cShARNVhety8H8YR7rxO4blX4ySNkUodmMghUQ&oe=63359CAE",
+    "specialties": [
+      "Apartment Architecture"
+    ],
+    "city": "Berlin"
+  }
+]
