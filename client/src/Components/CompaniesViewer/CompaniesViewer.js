@@ -1,18 +1,18 @@
+import { useEffect, useState } from 'react'
 import { Box } from '@mui/material/'
 import { CircularProgress } from '@mui/material'
-import { getCompanies } from '../../Services/getCompanies.js'
-import IconButton from '@mui/material/IconButton'
 import { useQuery } from "@tanstack/react-query"
-import RefreshIcon from '@mui/icons-material/Refresh'
-import Typography from '@mui/material/Typography'
-import Stack from '@mui/material/Stack'
-import Checkbox from '@mui/material/Checkbox'
-import { useEffect, useState } from 'react'
 import Grid from '@mui/material/Grid'
 import SearchIcon from "@mui/icons-material/Search"
 import TextField from "@mui/material/TextField"
 import InputAdornment from '@mui/material/InputAdornment'
 import FormControlLabel from '@mui/material/FormControlLabel'
+import IconButton from '@mui/material/IconButton'
+import RefreshIcon from '@mui/icons-material/Refresh'
+import Typography from '@mui/material/Typography'
+import Stack from '@mui/material/Stack'
+import Checkbox from '@mui/material/Checkbox'
+import { getCompanies } from '../../Services/getCompanies.js'
 import { CompanyCard } from '../CompanyCard/CompanyCard.js'
 
 export const CompaniesViewer = () => {
@@ -20,10 +20,10 @@ export const CompaniesViewer = () => {
 
   const [searchTerm, setSearchTerm] = useState("")
   const [filterOptions, setFilterOptions] = useState([])
-  const [selectedSpecialties, setSelectedSpecialties] = useState([]);
+  const [selectedSpecialties, setSelectedSpecialties] = useState([])
 
   const handleCheckBoxChange = (event) => {
-    const value = event.target.value;
+    const value = event.target.value
     setSelectedSpecialties((prev) =>
       selectedSpecialties.includes(value)
         ? prev.filter((cur) => cur !== value)
@@ -97,11 +97,9 @@ export const CompaniesViewer = () => {
           if (selectedSpecialties.some((item) => value.specialties.includes(item))) {
             return value
           }
-
           if (searchTerm !== "" && value.name.toLowerCase().includes(searchTerm.toLowerCase())) {
             return value
           }
-
           if (selectedSpecialties.length === 0 && searchTerm === '') {
             return value
           }
